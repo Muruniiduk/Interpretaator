@@ -1,0 +1,11 @@
+jump mittenegatiivne if x >= 0
+
+# kui programm jõuab siia, siis on x negatiivne 
+vastus = - x
+jump prindi_vastus
+
+:mittenegatiivne
+vastus = x
+
+:prindi_vastus
+print vastus

@@ -1,0 +1,13 @@
+f = 1
+
+:kordus
+
+jump prindi_vastus if n == 0
+
+f = f * n
+n = n - 1
+jump kordus 
+
+
+:prindi_vastus
+print f

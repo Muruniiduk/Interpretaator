@@ -1,0 +1,5 @@
+x = 4
+y = 10
+print x * y
+x = x + 1
+print x
